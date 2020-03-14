@@ -20,7 +20,19 @@ module.exports = {
           label: "Docs",
           position: "left"
         },
-        { to: "https://blog.earias.me", label: "Blog", position: "left" },
+        {
+          to: "docs/api-onPressed",
+          activeBasePath: "api",
+          label: "API",
+          position: "left"
+        },
+        {
+          to: "docs/example-on-pressed",
+          activeBasePath: "examples",
+          label: "Examples",
+          position: "left"
+        },
+        { to: "https://blog.earias.me", label: "Blog", position: "right" },
         {
           href: "https://github.com/evert-arias/EasyButton",
           label: "GitHub",
@@ -36,15 +48,19 @@ module.exports = {
           items: [
             {
               label: "Introduction",
-              to: "docs/doc1"
+              to: "docs/introduction"
             },
             {
-              label: "Installing in Arduino IDE",
-              to: "docs/doc2"
+              label: "Installation",
+              to: "docs/installation"
             },
             {
-              label: "Installing in PlatformIO",
-              to: "docs/doc2"
+              label: "Examples",
+              to: "docs/example-on-pressed"
+            },
+            {
+              label: "Guides",
+              to: "docs/guide-getting-started-with-easybutton"
             }
           ]
         },
@@ -52,21 +68,17 @@ module.exports = {
           title: "Examples",
           items: [
             {
-              label: "Pressed",
-              to: "https://github.com/evert-arias/EasyButton"
+              label: "On Pressed",
+              to: "docs/example-on-pressed"
             },
             {
-              label: "Pressed For Duration",
-              href: "https://github.com/evert-arias/EasyButton"
+              label: "On Sequence",
+              href: "docs/example-on-sequence"
             },
             {
-              label: "Sequence",
-              href: "https://github.com/evert-arias/EasyButton"
+              label: "On Pressed For Duration",
+              href: "docs/example-on-pressed-for-duration"
             },
-            {
-              label: "Touch Button",
-              href: "https://github.com/evert-arias/EasyButton"
-            }
           ]
         },
         {
