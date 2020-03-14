@@ -1,5 +1,5 @@
 ---
-id: api-onPressed
+id: api-on-pressed
 title: onPressed
 sidebar_label: onPressed
 ---

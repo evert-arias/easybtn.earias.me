@@ -1,5 +1,5 @@
 ---
-id: api-onPressedFor
+id: api-on-pressed-for
 title: onPressedFor
 sidebar_label: onPressedFor
 ---

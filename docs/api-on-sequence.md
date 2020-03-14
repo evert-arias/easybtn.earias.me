@@ -1,5 +1,5 @@
 ---
-id: api-onSequence
+id: api-on-sequence
 title: onSequence
 sidebar_label: onSequence
 ---
