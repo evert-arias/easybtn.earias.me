@@ -3,8 +3,6 @@ id: installation
 title: Installation
 ---
 
-## How to install
-
 Install the library using one of the following options:
 
 * Arduino Library Manager
@@ -14,7 +12,7 @@ Install the library using one of the following options:
 
 
 
-### Arduino Library Manager
+## Arduino Library Manager
 
 Here goes a detailed explanation on how to install the library from the Arduino Library Manager.
 
@@ -24,7 +22,7 @@ See [Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Li
 
 :::
 
-### PlatformIO Library Manager
+## PlatformIO Library Manager
 
 Here goes a detailed explanation on how to install the library from the PlatformIO Library Manager.
 
@@ -34,7 +32,7 @@ See [PlatformIO LIbrary Manager Docs](https://docs.platformio.org/en/latest/libr
 
 :::
 
-### Download to Arduino libraries directory
+## Download to Arduino libraries directory
 
 Here goes a detailed explanation on how to download and copy the library to the Arduino libraries directory.
 
@@ -44,7 +42,7 @@ You can also clone the repository to the Arduino libraries directory. Please ref
 
 :::
 
-### Download to project's directory
+## Download to project's directory
 
 Here goes a detailed explanation on how to download and copy the library to project's directory.
 
