@@ -9,6 +9,8 @@ title: Installation
 
 Here goes a detailed explanation on how to install the library from the Arduino Library Manager.
 
+![arduino_Library_manager](arduino_Library_manager.gif)
+
 :::note Tip
 
 See [Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Libraries) for more information
