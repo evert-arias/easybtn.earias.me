@@ -8,11 +8,11 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Small footprint</>,
     imageUrl: 'img/undraw_the_world_is_mine_nb0e.svg',
     description: (
       <>
-        EasyButton is small and does not depend on third party libraries making it very easy to install and include in your project.
+        EasyButton has an small footprint and does not depend on third party libraries making it very easy to install and include in your project.
       </>
     ),
   },
