@@ -21,7 +21,7 @@ module.exports = {
           position: "left"
         },
         {
-          to: "docs/api-onPressed",
+          to: "docs/api-on-pressed",
           activeBasePath: "api",
           label: "API",
           position: "left"
