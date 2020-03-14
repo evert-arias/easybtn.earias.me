@@ -7,9 +7,13 @@ title: Installation
 
 ## Arduino Library Manager
 
-Here goes a detailed explanation on how to install the library from the Arduino Library Manager.
+Search for **EasyButton** on the **Arduino Library Manager** as shown below:
 
-![arduino_Library_manager](../static/img/arduino_Library_manager.gif)
+
+
+![arduino_Library_manager](https://easybtn.earias.me/img/arduino_Library_manager.gif)
+
+
 
 :::note Tip
 
