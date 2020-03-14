@@ -3,8 +3,6 @@ id: introduction
 title: Introduction
 ---
 
-## What it is for
-
 This library is for debouncing and reading momentary contact switches like tactile buttons. It uses callbacks to trigger actions when a Button is pressed once or held for a given duration. It also provides a sequence counter to be able to rise an event when a given pattern of presses has been matched.
 
 :::note Important
