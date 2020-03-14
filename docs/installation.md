@@ -3,13 +3,6 @@ id: installation
 title: Installation
 ---
 
-Install the library using one of the following options:
-
-* Arduino Library Manager
-* PlatformIO Library Manager
-* Download to Arduino libraries directory
-* Download to project's directory
-
 
 
 ## Arduino Library Manager
