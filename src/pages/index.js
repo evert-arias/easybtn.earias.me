@@ -65,13 +65,14 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h3 className={styles.latestReleaseLabel}>Latest release: v1.1.1</h3>
           <div className={styles.buttons}>
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={'https://github.com/evert-arias/EasyButton/releases'}>
+              to={'https://github.com/evert-arias/EasyButton/archive/v1.1.1.zip'}>
               Download
             </Link>
           </div>
