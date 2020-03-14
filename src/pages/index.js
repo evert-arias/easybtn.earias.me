@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Small footprint</>,
+    title: <>Small Footprint</>,
     imageUrl: 'img/undraw_the_world_is_mine_nb0e.svg',
     description: (
       <>
@@ -17,7 +17,7 @@ const features = [
     ),
   },
   {
-    title: <>Non-blocking</>,
+    title: <>Non-blocking Library</>,
     imageUrl: 'img/undraw_season_change_f99v.svg',
     description: (
       <>
