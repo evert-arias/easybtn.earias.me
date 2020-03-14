@@ -23,7 +23,9 @@ See [Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Li
 
 ## PlatformIO Library Manager
 
-Here goes a detailed explanation on how to install the library from the PlatformIO Library Manager.
+Search for **EasyButton** on the **PlatformIO Library Manager** as shown below:
+
+![arduino_Library_manager](https://easybtn.earias.me/img/platformio_Library_manager.gif)
 
 :::note Tip
 
