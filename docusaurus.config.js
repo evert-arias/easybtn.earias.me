@@ -100,7 +100,11 @@ module.exports = {
         }
       ],
       copyright: `Made with 💙 by Evert Arias`
-    }
+    },
+    googleAnalytics: {
+      trackingID: 'UA-137998950-8',
+      anonymizeIP: false
+    },
   },
   presets: [
     [
@@ -116,5 +120,5 @@ module.exports = {
       }
     ]
   ],
-  gaTrackingId: 'UA-137998950-8',
+  plugins: ['@docusaurus/plugin-google-analytics']
 };
