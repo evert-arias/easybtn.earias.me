@@ -35,7 +35,13 @@ See [PlatformIO LIbrary Manager Docs](https://docs.platformio.org/en/latest/libr
 
 ## Download to Arduino libraries directory
 
-Here goes a detailed explanation on how to download and copy the library to the Arduino libraries directory.
+EasyButton can be installed by downloading the source code from its official GitHub repository and copy the files to the libraries directory of your Arduino IDE installed in your system.
+
+1. Download the [latest release](https://github.com/evert-arias/EasyButton/releases)
+2. Extract the content of the .zip file
+3.  Copy extracted files to `~\Documents\Arduino\libraries`
+
+
 
 :::note Tip
 
@@ -45,7 +51,13 @@ You can also clone the repository to the Arduino libraries directory. Please ref
 
 ## Download to project's directory
 
-Here goes a detailed explanation on how to download and copy the library to project's directory.
+EasyButton can be installed by downloading the source code from its official GitHub repository and copy the files to the libraries directory of your Arduino project.
+
+1. Download the [latest release](https://github.com/evert-arias/EasyButton/releases)
+2. Extract the content of the .zip file
+3.  Copy extracted files to the `lib` folder on the project's directory.
+
+
 
 :::note Tip
 

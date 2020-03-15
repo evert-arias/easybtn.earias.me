@@ -1,7 +1,7 @@
 ---
-id: example-on-pressed
-title: Example - On Pressed
-sidebar_label: On Pressed
+id: example-pressed
+title: Example - Pressed
+sidebar_label: Pressed
 ---
 
 :::important Work on progress

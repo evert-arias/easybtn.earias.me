@@ -1,7 +1,7 @@
 ---
-id: example-on-sequence
-title: Example - On Sequence
-sidebar_label: On Sequence
+id: example-sequence
+title: Example - Sequence
+sidebar_label: Sequence
 ---
 
 :::important Work on progress

@@ -1,7 +1,7 @@
 ---
-id: example-on-pressed-for-duration
-title: Example - On Pressed For Duration
-sidebar_label: On Pressed For Duration
+id: example-pressed-for-duration
+title: Example - Pressed For Duration
+sidebar_label: Pressed For Duration
 ---
 
 :::important Work on progress

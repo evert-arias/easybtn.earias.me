@@ -4,8 +4,18 @@ title: onPressed
 sidebar_label: onPressed
 ---
 
-Triggers a callback function when the Button has been pressed and released. The callback function will be called each time the Button is pressed.
+
+
+## Description
+
+Triggers a callback function when the button has been pressed and released. The callback function will be called each time the Button is pressed.
 
 ```cpp
 button.onPressed(onPressedCallback);
 ```
+
+
+
+## Example
+
+Please refer to the [Pressed](example-pressed) example included in this documentation.
