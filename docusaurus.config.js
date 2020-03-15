@@ -115,5 +115,6 @@ module.exports = {
         }
       }
     ]
-  ]
+  ],
+  gaTrackingId: 'UA-137998950-8',
 };
