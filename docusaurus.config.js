@@ -21,13 +21,13 @@ module.exports = {
           position: "left"
         },
         {
-          to: "docs/api-on-pressed",
+          to: "docs/api-pressed",
           activeBasePath: "api",
           label: "API",
           position: "left"
         },
         {
-          to: "docs/example-on-pressed",
+          to: "docs/example-pressed",
           activeBasePath: "examples",
           label: "Examples",
           position: "left"
@@ -56,7 +56,7 @@ module.exports = {
             },
             {
               label: "Examples",
-              to: "docs/example-on-pressed"
+              to: "docs/example-pressed"
             },
             {
               label: "Guides",
@@ -69,15 +69,15 @@ module.exports = {
           items: [
             {
               label: "On Pressed",
-              to: "docs/example-on-pressed"
+              to: "docs/example-pressed"
             },
             {
               label: "On Sequence",
-              href: "docs/example-on-sequence"
+              href: "docs/example-sequence"
             },
             {
               label: "On Pressed For Duration",
-              href: "docs/example-on-pressed-for-duration"
+              href: "docs/example-pressed-for-duration"
             },
           ]
         },
