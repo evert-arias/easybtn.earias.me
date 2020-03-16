@@ -55,12 +55,8 @@ module.exports = {
               to: "docs/installation"
             },
             {
-              label: "Examples",
-              to: "docs/single-press-example"
-            },
-            {
-              label: "Guides",
-              to: "docs/guide-getting-started-with-easybutton"
+              label: "Fundamentals",
+              to: "docs/fundamentals"
             }
           ]
         },
@@ -78,7 +74,7 @@ module.exports = {
             {
               label: "Pressed For Duration",
               href: "docs/pressed-for-duration-example"
-            },
+            }
           ]
         },
         {
@@ -102,9 +98,9 @@ module.exports = {
       copyright: `Made with 💙 by Evert Arias`
     },
     googleAnalytics: {
-      trackingID: 'UA-137998950-8',
+      trackingID: "UA-137998950-8",
       anonymizeIP: false
-    },
+    }
   },
   presets: [
     [
@@ -120,5 +116,5 @@ module.exports = {
       }
     ]
   ],
-  plugins: ['@docusaurus/plugin-google-analytics']
+  plugins: ["@docusaurus/plugin-google-analytics"]
 };
