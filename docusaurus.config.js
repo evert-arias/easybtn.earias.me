@@ -1,6 +1,6 @@
 module.exports = {
   title: "EasyButton",
-  tagline: "The Arduino Library For Buttons",
+  tagline: "Arduino library for debouncing momentary contact switches, detect press, release, long press and sequences with event definitions and callbacks.",
   url: "https://easybtn.earias.me",
   baseUrl: "/",
   favicon: "img/favicon.ico",
