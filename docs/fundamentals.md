@@ -6,7 +6,7 @@ sidebar_label: Fundamentals
 
 ## Including the Library
 
-Include the library as shown below.
+Once the library has been installed, you may include it as shown below.
 
 ```cpp
 #include <EasyButton.h>
@@ -14,11 +14,13 @@ Include the library as shown below.
 
 ## EasyButton Class
 
-The library exposes a class that you must use to create an instance for every button that you want to hook to EasyButton.
+The library exposes the **EasyButton** class. Create an instance of the class for every button that you have connected.
 
 ```cpp
-#define BUTTON_PIN 26
-EasyButton button1(BUTTON_PIN);
+#define PWR_BTN_PIN 26
+#define RST_BTN_PIN 27
+EasyButton powerButton(PWR_BTN_PIN);
+EasyButton resetButton(RST_BTN_PIN);
 ```
 
 ### Arguments
@@ -26,12 +28,12 @@ EasyButton button1(BUTTON_PIN);
 The following arguments can be passed to the class constructor.
 
 ```cpp
-#define BUTTON_PIN 26
-uint8 debounceTime = 40;
-bool pullUp = false;
+#define PWR_BTN_PIN 26
+uint8 debounce = 40;
+bool pullup = false;
 bool invert = false;
 
-EasyButton button1(BUTTON_PIN, debounceTime, pullUp, invert);
+EasyButton powerButton(PWR_BTN_PIN, debounce, pullup, invert);
 ```
 
 |   Argument    | Data Type | Required? | Default Value |                                                                         Description                                                                         |
@@ -45,23 +47,49 @@ EasyButton button1(BUTTON_PIN, debounceTime, pullUp, invert);
 If using **ESP32**, be aware that some of the pins does not have software **pull-up**/**pull-down** functionalities. In that case, use an external pull-up resistor, 10K works well. Please refer to [Pull-up Resistors](https://learn.sparkfun.com/tutorials/pull-up-resistors).
 :::
 
+## Initializing a button
+
+Initialize the button by calling the method `begin` within the `setup` function.
+
+```cpp
+void setup() {
+    powerButton.begin();
+}
+```
+
+## Update Button State
+
+Continuously read the state of the button.
+
+```cpp
+void loop() {
+    powerButton.read();
+}
+```
+
+:::note Note
+
+There is no need to keep a track of button state when using external interrupts. Please refer to [using external interrupts]().
+
+:::
+
 ## Callbacks
 
 EasyButton allows you to attach callback functions to certain button events. Use callback functions to run specific code when the event gets triggered. Attach callback functions within the setup function.
 
 ```cpp
 void onPressed() {
-  Serial.println("Button has been pressed!");
+  Serial.println("Power button has been pressed!");
 }
 
 void onReleased() {
-    Serial.println("Button has been released!");
+    Serial.println("Power button has been released!");
 }
 
 void setup() {
     // onPressed function will be called when the onPressed event of the button gets triggered.
-    button.onPressed(onPressed);
+    powerButton.onPressed(onPressed);
     // onReleased function will be called when the onReleased event of the button gets triggered.
-    button.onReleased(onReleased);
+    powerButton.onReleased(onReleased);
 }
 ```
