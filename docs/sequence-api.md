@@ -11,8 +11,10 @@ Triggers a callback function when the Button presses matches the given sequence 
 ```cpp
 // Number of presses for the sequence
 int number_of_presses = 5;
+
 // Sequence timeout
 int sequence_timeout = 2000;
+
 button.onSequence(number_of_presses, sequence_timeout, onSequenceMatchedCallback);
 ```
 

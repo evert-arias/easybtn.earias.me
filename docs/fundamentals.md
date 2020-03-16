@@ -18,8 +18,11 @@ The library exposes the **EasyButton** class. Create an instance of the class fo
 
 ```cpp
 #define PWR_BTN_PIN 26
+
 #define RST_BTN_PIN 27
+
 EasyButton powerButton(PWR_BTN_PIN);
+
 EasyButton resetButton(RST_BTN_PIN);
 ```
 
@@ -29,8 +32,11 @@ The following arguments can be passed to the class constructor.
 
 ```cpp
 #define PWR_BTN_PIN 26
+
 uint8 debounce = 40;
+
 bool pullup = false;
+
 bool invert = false;
 
 EasyButton powerButton(PWR_BTN_PIN, debounce, pullup, invert);
@@ -89,6 +95,7 @@ void onReleased() {
 void setup() {
     // onPressed function will be called when the onPressed event of the button gets triggered.
     powerButton.onPressed(onPressed);
+    
     // onReleased function will be called when the onReleased event of the button gets triggered.
     powerButton.onReleased(onReleased);
 }

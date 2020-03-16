@@ -10,6 +10,7 @@ Triggers a callback function when the Button has been pressed and hold for at le
 
 ```cpp
 int duration = 2000;
+
 button.onPressedFor(duration, onPressedCallback);
 ```
 
