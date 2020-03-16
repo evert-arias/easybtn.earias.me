@@ -21,13 +21,13 @@ module.exports = {
           position: "left"
         },
         {
-          to: "docs/single-press-api",
+          to: "docs/on-single-press-api",
           activeBasePath: "api",
           label: "API",
           position: "left"
         },
         {
-          to: "docs/single-press-example",
+          to: "docs/on-single-press-example",
           activeBasePath: "examples",
           label: "Examples",
           position: "left"
@@ -65,15 +65,15 @@ module.exports = {
           items: [
             {
               label: "Single Press",
-              to: "docs/single-press-example"
+              to: "docs/on-single-press-example"
             },
             {
               label: "Detecting Sequence",
-              href: "docs/sequence-example"
+              href: "docs/on-sequence-example"
             },
             {
               label: "Pressed For Duration",
-              href: "docs/pressed-for-duration-example"
+              href: "docs/on-pressed-for-duration-example"
             }
           ]
         },
