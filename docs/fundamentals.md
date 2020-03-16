@@ -95,7 +95,7 @@ void onReleased() {
 void setup() {
     // onPressed function will be called when the onPressed event of the button gets triggered.
     powerButton.onPressed(onPressed);
-    
+
     // onReleased function will be called when the onReleased event of the button gets triggered.
     powerButton.onReleased(onReleased);
 }

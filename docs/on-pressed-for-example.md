@@ -1,10 +1,10 @@
 ---
-id: sequence-example
-title: Detecting Sequence
-sidebar_label: Detecting Sequence
+id: on-pressed-for-duration-example
+title: Pressed For Duration
+sidebar_label: Pressed For Duration
 ---
 
-The following example demonstrate how to detect a sequence of presses.
+The following example demostrate how to detect when a button has been pressed for a given time.
 
 Download [source code](https://github.com/evert-arias/EasyButton/blob/master/examples)
 
@@ -14,12 +14,6 @@ Download [source code](https://github.com/evert-arias/EasyButton/blob/master/exa
 // Arduino pin number where the button is connected.
 #define BUTTON_PIN 26
 
-// Number of presses.
-int presses = 5;
-// Timeout.
-
-int timeout = 2000;
-
 // Duration.
 int duration = 2000;
 
@@ -27,8 +21,8 @@ int duration = 2000;
 EasyButton button(BUTTON_PIN);
 
 // Callback.
-void onSequenceMatched() {
-  Serial.println("Sequence matched");
+void onPressedForDuration() {
+    Serial.println("Button has been pressed for the given duration!");
 }
 
 void setup() {
@@ -38,7 +32,7 @@ void setup() {
   	button.begin();
 
   	// Attach callback.
-  	button.onSequence(presses, timeout, onSequenceMatched);
+  	button.onPressedFor(duration, onPressedForDuration);
 }
 
 void loop() {

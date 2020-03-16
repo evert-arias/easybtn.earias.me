@@ -1,10 +1,10 @@
 ---
-id: pressed-for-duration-example
-title: Pressed For Duration
-sidebar_label: Pressed For Duration
+id: on-single-press-example
+title: Single Press
+sidebar_label: Single Press
 ---
 
-The following example demostrate how to detect when a button has been pressed for a given time.
+The following example demostrate how to detect a single press.
 
 Download [source code](https://github.com/evert-arias/EasyButton/blob/master/examples)
 
@@ -14,15 +14,12 @@ Download [source code](https://github.com/evert-arias/EasyButton/blob/master/exa
 // Arduino pin number where the button is connected.
 #define BUTTON_PIN 26
 
-// Duration.
-int duration = 2000;
-
 // Button.
 EasyButton button(BUTTON_PIN);
 
 // Callback.
-void onPressedForDuration() {
-    Serial.println("Button has been pressed for the given duration!");
+void onPressed() {
+    Serial.println("Button has been pressed!");
 }
 
 void setup() {
@@ -32,7 +29,7 @@ void setup() {
   	button.begin();
 
   	// Attach callback.
-  	button.onPressedFor(duration, onPressedForDuration);
+  	button.onPressed(onPressed);
 }
 
 void loop() {

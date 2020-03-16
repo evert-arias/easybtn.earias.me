@@ -4,17 +4,11 @@ title: Installation
 sidebar_label: Installation
 ---
 
-
-
 ## Arduino Library Manager
 
 Search for **EasyButton** on the **Arduino Library Manager** as shown below:
 
-
-
 ![arduino_Library_manager](https://easybtn.earias.me/img/arduino_Library_manager.gif)
-
-
 
 :::note Tip
 
@@ -40,9 +34,7 @@ EasyButton can be installed by downloading the source code from its official Git
 
 1. Download the [latest release](https://github.com/evert-arias/EasyButton/releases)
 2. Extract the content of the .zip file
-3.  Copy extracted files to `~\Documents\Arduino\libraries`
-
-
+3. Copy extracted files to `~\Documents\Arduino\libraries`
 
 :::note Tip
 
@@ -56,9 +48,7 @@ EasyButton can be installed by downloading the source code from its official Git
 
 1. Download the [latest release](https://github.com/evert-arias/EasyButton/releases)
 2. Extract the content of the .zip file
-3.  Copy extracted files to the `lib` folder on the project's directory.
-
-
+3. Copy extracted files to the `lib` folder on the project's directory.
 
 :::note Tip
 

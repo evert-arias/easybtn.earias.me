@@ -1,8 +1,10 @@
 ---
-id: single-press-api
+id: on-single-press-api
 title: onPressed
 sidebar_label: onPressed
 ---
+
+`Event`
 
 ## Description
 

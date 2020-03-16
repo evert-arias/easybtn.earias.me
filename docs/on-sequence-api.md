@@ -1,8 +1,10 @@
 ---
-id: sequence-api
+id: on-sequence-api
 title: onSequence
 sidebar_label: onSequence
 ---
+
+`Event`
 
 ## Description
 

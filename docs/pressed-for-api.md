@@ -1,19 +1,15 @@
 ---
 id: pressed-for-api
-title: onPressedFor
-sidebar_label: onPressedFor
+title: pressedFor
+sidebar_label: pressedFor
 ---
 
 ## Description
 
-Triggers a callback function when the Button has been pressed and hold for at least the given duration time. This method takes two parameters as arguments. The first argument is the duration in milliseconds and the second is the callback function to be called.
+Returns `true` if the button state was **pressed** at the last read, and has been in that state for at least the given number of milliseconds.
 
 ```cpp
-int duration = 2000;
+int pressedForTime = 2000;
 
-button.onPressedFor(duration, onPressedCallback);
+bool pressed_for = button.pressedFor(pressedForTime);
 ```
-
-## Example
-
-Please refer to the [Pressed For Duration](pressed-for-duration-example) example included in this documentation.

@@ -1,10 +1,10 @@
 ---
-id: single-press-example
-title: Single Press
-sidebar_label: Single Press
+id: on-sequence-example
+title: Detecting Sequence
+sidebar_label: Detecting Sequence
 ---
 
-The following example demostrate how to detect a single press.
+The following example demonstrate how to detect a sequence of presses.
 
 Download [source code](https://github.com/evert-arias/EasyButton/blob/master/examples)
 
@@ -14,12 +14,21 @@ Download [source code](https://github.com/evert-arias/EasyButton/blob/master/exa
 // Arduino pin number where the button is connected.
 #define BUTTON_PIN 26
 
+// Number of presses.
+int presses = 5;
+// Timeout.
+
+int timeout = 2000;
+
+// Duration.
+int duration = 2000;
+
 // Button.
 EasyButton button(BUTTON_PIN);
 
 // Callback.
-void onPressed() {
-    Serial.println("Button has been pressed!");
+void onSequenceMatched() {
+  Serial.println("Sequence matched");
 }
 
 void setup() {
@@ -29,7 +38,7 @@ void setup() {
   	button.begin();
 
   	// Attach callback.
-  	button.onPressed(onPressed);
+  	button.onSequence(presses, timeout, onSequenceMatched);
 }
 
 void loop() {
