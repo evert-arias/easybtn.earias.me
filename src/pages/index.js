@@ -9,7 +9,7 @@ import styles from "./styles.module.css";
 const features = [
   {
     title: <>Small footprint</>,
-    imageUrl: "img/undraw_performance_overview_p9bm.svg",
+    imageUrl: "img/feature-small-footprint.svg",
     description: (
       <>
         EasyButton has an small footprint and does not depend on third party
@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: <>Non-blocking</>,
-    imageUrl: "img/undraw_season_change_f99v.svg",
+    imageUrl: "img/feature-non-blocking.svg",
     description: (
       <>
         EasyButton is a non-blocking library, which means it won't affect the
@@ -30,7 +30,7 @@ const features = [
   },
   {
     title: <>Intuitive API</>,
-    imageUrl: "img/undraw_control_panel1_20gm.svg",
+    imageUrl: "img/feature-intuitive-api.svg",
     description: (
       <>
         Handling buttons is a simple task on arduino, but the code can look very
