@@ -16,7 +16,6 @@ module.exports = {
       "on-single-press-example",
       "on-pressed-for-duration-example",
       "on-sequence-example"
-    ],
-    Guides: ["guide-getting-started-with-easybutton"]
+    ]
   }
 };
