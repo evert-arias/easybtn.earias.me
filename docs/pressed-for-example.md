@@ -1,5 +1,5 @@
 ---
-id: pressed-for-example
+id: pressed-for-duration-example
 title: Pressed For Duration
 sidebar_label: Pressed For Duration
 ---

@@ -1,10 +1,8 @@
 ---
-id: api-on-pressed-for
+id: pressed-for-api
 title: onPressedFor
 sidebar_label: onPressedFor
 ---
-
-
 
 ## Description
 
@@ -17,4 +15,4 @@ button.onPressedFor(duration, onPressedCallback);
 
 ## Example
 
-Please refer to the [Pressed-For-Duration](example-pressed-for-duration) example included in this documentation.
+Please refer to the [Pressed For Duration](pressed-for-duration-example) example included in this documentation.

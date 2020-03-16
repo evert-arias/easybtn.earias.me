@@ -1,10 +1,8 @@
 ---
-id: api-on-pressed
+id: single-press-api
 title: onPressed
 sidebar_label: onPressed
 ---
-
-
 
 ## Description
 
@@ -14,8 +12,6 @@ Triggers a callback function when the button has been pressed and released. The 
 button.onPressed(onPressedCallback);
 ```
 
-
-
 ## Example
 
-Please refer to the [Pressed](example-pressed) example included in this documentation.
+Please refer to the [Single Press](single-press-example) example included in this documentation.

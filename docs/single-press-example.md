@@ -1,7 +1,7 @@
 ---
-id: basic-example
-title: Basic Example
-sidebar_label: Basic
+id: single-press-example
+title: Single Press
+sidebar_label: Single Press
 ---
 
 The following example demostrate how to detect a single press.

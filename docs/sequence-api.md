@@ -1,10 +1,8 @@
 ---
-id: api-on-sequence
+id: sequence-api
 title: onSequence
 sidebar_label: onSequence
 ---
-
-
 
 ## Description
 
@@ -14,12 +12,10 @@ Triggers a callback function when the Button presses matches the given sequence 
 // Number of presses for the sequence
 int number_of_presses = 5;
 // Sequence timeout
-int sequence_timeout = 2000;	
+int sequence_timeout = 2000;
 button.onSequence(number_of_presses, sequence_timeout, onSequenceMatchedCallback);
 ```
 
-
-
 ## Example
 
-Please refer to the [Sequence](example-sequence) example included in this documentation.
+Please refer to the [Detecting Sequence](sequence-example) example included in this documentation.

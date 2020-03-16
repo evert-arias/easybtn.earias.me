@@ -17,6 +17,7 @@ Download [source code](https://github.com/evert-arias/EasyButton/blob/master/exa
 // Number of presses.
 int presses = 5;
 // Timeout.
+
 int timeout = 2000;
 
 // Duration.
