@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg12850"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="easybutton-ilustration.svg">
+  <defs
+     id="defs12844" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="510.07378"
+     inkscape:cy="199.43809"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata12847">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="ilustration"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="opacity:1">
+    <rect
+       style="display:inline;opacity:0.63157893;fill:#ff8080;fill-opacity:0.98431373;stroke:none;stroke-width:0.7626707;stroke-opacity:1"
+       id="rect12689"
+       width="138.80478"
+       height="74.127602"
+       x="36.24453"
+       y="120.62051"
+       inkscape:label="background" />
+    <g
+       id="g13434"
+       inkscape:label="label"
+       style="fill:#ff5555">
+      <rect
+         inkscape:label="label-background"
+         y="182.23866"
+         x="36.243935"
+         height="13.895308"
+         width="138.80478"
+         id="rect12767"
+         style="display:inline;opacity:1;fill:#ff5555;fill-opacity:0.98431373;stroke:none;stroke-width:1.87674475;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <text
+         inkscape:label="label-text"
+         id="text12737"
+         y="191.63928"
+         x="79.028023"
+         style="font-style:normal;font-weight:normal;font-size:9.32905102px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.69967884"
+         xml:space="preserve"><tspan
+           style="fill:#ffffff;stroke-width:0.69967884"
+           y="191.63928"
+           x="79.028023"
+           id="tspan12735"
+           sodipodi:role="line">EasyButton</tspan></text>
+    </g>
+    <rect
+       style="display:inline;opacity:0.97000002;fill:#666666;fill-opacity:0.98431373;stroke:none;stroke-width:1.57137489;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect12779"
+       width="13.054357"
+       height="3.3409255"
+       x="95.274071"
+       y="149.78387"
+       inkscape:label="link" />
+    <g
+       id="g13424"
+       inkscape:label="event"
+       style="fill:#916f6f">
+      <ellipse
+         ry="25.057861"
+         rx="25.828876"
+         cy="151.88632"
+         cx="69.024574"
+         id="path12695"
+         style="display:inline;opacity:1;fill:#916f6f;fill-opacity:0.98431373;stroke:#655959;stroke-width:1.19500005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text12741"
+         y="155.24498"
+         x="53.266651"
+         style="font-style:normal;font-weight:normal;font-size:9.23910236px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.98000004;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.69293267"
+         xml:space="preserve"><tspan
+           style="fill:#ffffff;stroke-width:0.69293267"
+           y="155.24498"
+           x="53.266651"
+           id="tspan12739"
+           sodipodi:role="line">EVENT</tspan></text>
+    </g>
+    <g
+       id="g13429"
+       inkscape:label="callback"
+       style="stroke:#655959;stroke-opacity:1"
+       transform="translate(-0.52916667)">
+      <rect
+         y="134.06807"
+         x="109.12033"
+         height="35.636536"
+         width="57.90937"
+         id="rect12701"
+         style="display:inline;opacity:0.97000002;fill:#00bb5c;fill-opacity:0.73404254;stroke:#655959;stroke-width:1.19500005;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <text
+         id="text12745"
+         y="155.24498"
+         x="113.57876"
+         style="font-style:normal;font-weight:normal;font-size:9.23910236px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.98000004;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.69293267;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke:none;stroke-width:0.69293267;stroke-opacity:1"
+           y="155.24498"
+           x="113.57876"
+           id="tspan12743"
+           sodipodi:role="line">CALLBACK</tspan></text>
+    </g>
+  </g>
+</svg>
