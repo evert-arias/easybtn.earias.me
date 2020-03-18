@@ -12,7 +12,7 @@ const features = [
     imageUrl: "img/feature-small-footprint.svg",
     description: (
       <>
-        EasyButton has an small footprint and does not depend on third party
+        EasyButton has a small footprint and does not depend on third party
         libraries making it very easy to install and include in your project.
       </>
     )
@@ -25,6 +25,18 @@ const features = [
         EasyButton is a non-blocking library, which means it won't affect the
         rest of your code with dangerous delays that impact the overall
         performance of your code.
+      </>
+    )
+  },
+  {
+    title: <>Interrupts support</>,
+    imageUrl: "img/feature-intuitive-api.svg",
+    description: (
+      <>
+        In order to improve efficiency, the library is able to interface buttons
+        through external interrupts. By doing this, it won't be necessary to
+        continuously read the state of the buttons. This allows you to write a
+        more efficient code.
       </>
     )
   },
