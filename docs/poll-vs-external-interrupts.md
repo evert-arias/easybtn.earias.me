@@ -46,95 +46,40 @@ The most commons trigger conditions are:
 * RISING: Interrupt is triggered when occurs a rising edge, this happens when signal goes from LOW to HIGH
 * CHANGE: Interrupt is triggered when occurs a falling edge or a rising edge
 
+Now we can solve the initial problem in a more efficient way. The microcontroller will run the `buttonPressed()` function when a falling edge will be detected on pin `BUTTON_PIN`.
+
 ```cpp
-#include <EasyButton.h>
+attachInterrupt(digitalPinToInterrupt(BUTTON_PIN), buttonPressed, FALLING);
 ```
 
-## EasyButton Class
-
-The library exposes the **EasyButton** class. Create an instance of the class for every button that you have connected.
-
+A 'flag' is activated inside the `buttonPressed()` function. This flag indicates that the event was detected.
 ```cpp
-#define PWR_BTN_PIN 26
-
-#define RST_BTN_PIN 27
-
-EasyButton powerButton(PWR_BTN_PIN);
-
-EasyButton resetButton(RST_BTN_PIN);
-```
-
-### Arguments
-
-The following arguments can be passed to the class constructor.
-
-```cpp
-#define PWR_BTN_PIN 26
-
-uint8 debounce = 40;
-
-bool pullup = false;
-
-bool invert = false;
-
-EasyButton powerButton(PWR_BTN_PIN, debounce, pullup, invert);
-```
-
-|   Argument    | Data Type | Required? | Default Value |                                                                         Description                                                                         |
-| :-----------: | :-------: | :-------: | :-----------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|      pin      |  uint8_t  |    yes    |      n/a      |                                                      Arduino pin number where the button is connected.                                                      |
-| debounce_time | uint32_t  |    no     |      35       |         Period of time to make sure the pushbutton is definitely pressed. Please refer to [debounce](https://www.arduino.cc/en/tutorial/debounce).          |
-| pullup_enable |   bool    |    no     |     true      | Enable internal pullup resistor. Please refer to [digital pins](https://www.arduino.cc/en/Tutorial/DigitalPins). If using ESP32, please see the note below. |
-|    invert     |   bool    |    no     |     true      |            Invert button logic. If true, low = pressed else high = pressed. Please refer to [invert](https://www.arduino.cc/en/Tutorial/Invert).            |
-
-:::note Note
-If using **ESP32**, be aware that some of the pins does not have software **pull-up**/**pull-down** functionalities. In that case, use an external pull-up resistor, 10K works well. Please refer to [Pull-up Resistors](https://learn.sparkfun.com/tutorials/pull-up-resistors).
-:::
-
-## Initializing a button
-
-Initialize the button by calling the method `begin` within the `setup` function.
-
-```cpp
-void setup() {
-    powerButton.begin();
+void buttonPressed()
+{
+  wasPressed = true;
 }
 ```
-
-## Update Button State
-
-Continuously read the state of the button.
-
+In the main program, after executing delay, the flag value is readed.
 ```cpp
-void loop() {
-    powerButton.read();
+void loop()
+{
+  // put your main code here, to run repeatedly:
+  delay(1000*SECONDS);
+  if (wasPressed)
+  {
+    Serial.println("Button was pressed");
+    wasPressed = false;
+  }
 }
 ```
+This solution is more efficient than the previous one based on 'poll system' because all events will be detected. Every time that a falling edge occurs on `BUTTON_PIN`, the microcontroller will execute the interrupt service routine and because of this your main program will know each time the button was pressed.  
+
+### **Things to consider with the use of interrupts**
+* Inside an interrupt service routine, most of timing functions won't work as expected (millis, delay, etc). This is because this functions use interrupt service routines which can't be executed while an external interrupt is being executed.
+* Interrupt service routines should be as shorts as possible.
 
 :::note Note
 
 There is no need to keep a track of button state when using external interrupts. Please refer to [poll vs external interrupts]().
 
 :::
-
-## Callbacks
-
-EasyButton allows you to attach callback functions to certain button events. Use callback functions to run specific code when the event gets triggered. Attach callback functions within the setup function.
-
-```cpp
-void onPressed() {
-  Serial.println("Power button has been pressed!");
-}
-
-void onReleased() {
-    Serial.println("Power button has been released!");
-}
-
-void setup() {
-    // onPressed function will be called when the onPressed event of the button gets triggered.
-    powerButton.onPressed(onPressed);
-
-    // onReleased function will be called when the onReleased event of the button gets triggered.
-    powerButton.onReleased(onReleased);
-}
-```
