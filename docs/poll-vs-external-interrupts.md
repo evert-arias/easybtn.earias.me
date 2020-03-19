@@ -31,7 +31,20 @@ void loop()
 For example, in the code shown above, the microcontroller won't be able to detect the state of the button while the delay its being executed. As a consequence, it is pretty probable that some state changes couldn't be detected. In order to avoid this, external interrupts must be used.  
 
 ## External interrupts  
-  
+External interrupts **are used to detect a state change in a more efficient way than poll system**. This is because **the event is detected by hardware and not by software*. This means that, even the microcontroller could be doing other tasks like delay in previous example, it will be able to detect the event.  
+
+External interrupts link a function to an event. In order to define an external interrupt, is needed:  
+
+* A microcontroller pin which will detect the event
+* A trigger condition  
+* An interrupt service routine  
+
+Pins which can be used by external interrupts depend on the microcontroller used, it is your responsability to connect the button to one of these pins.
+
+The most commons trigger conditions are:  
+* FALLING: Interrupt is triggered when occurs a falling edge, this happens when signal goes from HIGH to LOW
+* RISING: Interrupt is triggered when occurs a rising edge, this happens when signal goes from LOW to HIGH
+* CHANGE: Interrupt is triggered when occurs a falling edge or a rising edge
 
 ```cpp
 #include <EasyButton.h>
