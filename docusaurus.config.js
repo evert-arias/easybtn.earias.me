@@ -32,6 +32,7 @@ module.exports = {
           label: "Examples",
           position: "left"
         },
+        { to: "/thanks", label: "Contributors", position: "left" },
         { to: "https://blog.earias.me", label: "Blog", position: "right" },
         {
           href: "https://github.com/evert-arias/EasyButton",
