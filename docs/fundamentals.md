@@ -77,6 +77,16 @@ void loop() {
 
 ### **External interrupts**
 
+Defining interruption service routine
+
+```cpp
+void buttonISR()
+{
+  //When button is being used through external interrupts, parameter INTERRUPT must be passed to read() function
+  button.read(INTERRUPT); 
+}
+```
+
 Enabling external interrupt
 
 ```cpp
@@ -85,6 +95,8 @@ if (powerButton.supportsInterrupt())
     powerButton.enableInterrupt(buttonISR);
   }
 ```
+
+
 
 
 ## Callbacks
