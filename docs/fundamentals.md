@@ -65,6 +65,8 @@ void setup() {
 
 ## Update Button State
 
+### **Poll**  
+
 Continuously read the state of the button.
 
 ```cpp
