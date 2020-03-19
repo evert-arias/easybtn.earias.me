@@ -58,7 +58,7 @@ Now we can solve the initial problem in a more efficient way. The microcontrolle
 attachInterrupt(digitalPinToInterrupt(BUTTON_PIN), buttonPressed, FALLING);
 ```
 
-A 'flag' is activated inside the `buttonPressed()` function. This flag indicates that the event was detected.
+A 'flag' is activated inside the `buttonPressed` function. This flag indicates that the event was detected.
 ```cpp
 void buttonPressed()
 {
