@@ -15,7 +15,17 @@ int duration = 2000;
 
 button.onPressedFor(duration, onPressedCallback);
 ```
+## External interrupts
 
-## Example
+When the button is being interfaced with microcontroller through external interrupts and you need to use this feature, method `update` must be called inside `loop` function as shown below.
+
+```cpp
+void loop() {
+  // update() function must be called repeatedly only if onPressedFor functionality is being used and interrupt is enabled
+  button.update();
+}
+```
+
+## Examples
 
 Please refer to the [Pressed For Duration](pressed-for-duration-example) example included in this documentation.
