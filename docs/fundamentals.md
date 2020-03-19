@@ -75,7 +75,7 @@ void loop() {
 
 :::note Note
 
-There is no need to keep a track of button state when using external interrupts. Please refer to [using external interrupts]().
+There is no need to keep a track of button state when using external interrupts. Please refer to [poll vs external interrupts]().
 
 :::
 
