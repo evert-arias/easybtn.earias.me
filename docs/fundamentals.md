@@ -83,7 +83,7 @@ Defining interruption service routine
 void buttonISR()
 {
   //When button is being used through external interrupts, parameter INTERRUPT must be passed to read() function
-  button.read(INTERRUPT); 
+  powerButton.read(INTERRUPT); 
 }
 ```
 
