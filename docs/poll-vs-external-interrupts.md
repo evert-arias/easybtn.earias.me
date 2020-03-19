@@ -9,6 +9,12 @@ sidebar_label: Poll vs external interrupts
 There are many ways in which a microcontroller is able the detect the state of a button. The most common 
 way to do this is by polling the button. This means that **the microcontroller will be continuously reading the button signal**. This approach is shown below  
 
+:::note Note
+
+All code in this section is shown only for teaching purposes. EasyButton library will do most of this work for you.
+
+:::
+
 ```cpp
 void loop() 
 {
@@ -31,7 +37,7 @@ void loop()
 For example, in the code shown above, the microcontroller won't be able to detect the state of the button while the delay its being executed. As a consequence, it is pretty probable that some state changes couldn't be detected. In order to avoid this, external interrupts must be used.  
 
 ## External interrupts  
-External interrupts **are used to detect a state change in a more efficient way than poll system**. This is because **the event is detected by hardware and not by software*. This means that, even the microcontroller could be doing other tasks like delay in previous example, it will be able to detect the event.  
+External interrupts **are used to detect a state change in a more efficient way than poll system**. This is because **the event is detected by hardware and not by software**. This means that, even the microcontroller could be doing other tasks like delay in previous example, it will be able to detect the event.  
 
 External interrupts link a function to an event. In order to define an external interrupt, is needed:  
 
@@ -78,8 +84,3 @@ This solution is more efficient than the previous one based on 'poll system' bec
 * Inside an interrupt service routine, most of timing functions won't work as expected (millis, delay, etc). This is because this functions use interrupt service routines which can't be executed while an external interrupt is being executed.
 * Interrupt service routines should be as shorts as possible.
 
-:::note Note
-
-There is no need to keep a track of button state when using external interrupts. Please refer to [poll vs external interrupts]().
-
-:::
