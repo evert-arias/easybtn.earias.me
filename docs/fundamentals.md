@@ -96,9 +96,6 @@ if (powerButton.supportsInterrupt())
   }
 ```
 
-
-
-
 ## Callbacks
 
 EasyButton allows you to attach callback functions to certain button events. Use callback functions to run specific code when the event gets triggered. Attach callback functions within the setup function.
