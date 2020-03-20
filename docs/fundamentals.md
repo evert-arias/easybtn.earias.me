@@ -65,6 +65,8 @@ void setup() {
 
 ## Update Button State
 
+### **Poll**  
+
 Continuously read the state of the button.
 
 ```cpp
@@ -73,11 +75,26 @@ void loop() {
 }
 ```
 
-:::note Note
+### **External interrupts**
 
-There is no need to keep a track of button state when using external interrupts. Please refer to [using external interrupts]().
+Defining interruption service routine
 
-:::
+```cpp
+void buttonISR()
+{
+  //When button is being used through external interrupts, parameter INTERRUPT must be passed to read() function
+  powerButton.read(INTERRUPT); 
+}
+```
+
+Enabling external interrupt
+
+```cpp
+if (powerButton.supportsInterrupt())
+  {
+    powerButton.enableInterrupt(buttonISR);
+  }
+```
 
 ## Callbacks
 

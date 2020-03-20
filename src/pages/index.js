@@ -8,12 +8,14 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <>Small footprint</>,
-    imageUrl: "img/feature-small-footprint.svg",
+    title: <>Intuitive API</>,
+    imageUrl: "img/feature-intuitive-api.svg",
     description: (
       <>
-        EasyButton has an small footprint and does not depend on third party
-        libraries making it very easy to install and include in your project.
+        Handling buttons is a simple task on arduino, but the code can look very
+        ugly, full of conditions and delays that are not safe at all. EasyButton
+        not only saves you development time, it also provides an easy and
+        intuitive API for handling buttons with callbacks.
       </>
     )
   },
@@ -29,17 +31,27 @@ const features = [
     )
   },
   {
-    title: <>Intuitive API</>,
-    imageUrl: "img/feature-intuitive-api.svg",
+    title: <>Interrupts support</>,
+    imageUrl: "img/feature-interrupts-support.svg",
     description: (
       <>
-        Handling buttons is a simple task on arduino, but the code can look very
-        ugly, full of conditions and delays that are not safe at all. EasyButton
-        not only saves you development time, it also provides an easy and
-        intuitive API for handling buttons with callbacks.
+        In order to improve efficiency, the library is able to interface buttons
+        through external interrupts. By doing this, it won't be necessary to
+        continuously read the state of the buttons. This allows you to write a
+        more efficient code.
       </>
     )
-  }
+  },
+  {
+    title: <>Small footprint</>,
+    imageUrl: "img/feature-small-footprint.svg",
+    description: (
+      <>
+        EasyButton has a small footprint and does not depend on third party
+        libraries making it very easy to install and include in your project.
+      </>
+    )
+  },
 ];
 
 function Feature({ imageUrl, title, description }) {
