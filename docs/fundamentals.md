@@ -65,7 +65,7 @@ void setup() {
 
 ## Update Button State
 
-### **Poll**  
+### Poll
 
 Continuously read the state of the button.
 
@@ -75,7 +75,7 @@ void loop() {
 }
 ```
 
-### **External interrupts**
+### External interrupts
 
 Defining interruption service routine
 

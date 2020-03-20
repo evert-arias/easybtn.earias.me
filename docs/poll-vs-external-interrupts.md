@@ -7,7 +7,7 @@ sidebar_label: Poll vs external interrupts
 ## Poll
 
 There are many ways in which a microcontroller is able the detect the state of a button. The most common 
-way to do this is by polling the button. This means that **the microcontroller will be continuously reading the button signal**. This approach is shown below  
+way to do this is by polling the button. This means that **the microcontroller will be continuously reading the button signal**. This approach is shown below
 
 :::note Note
 
@@ -80,7 +80,7 @@ void loop()
 ```
 This solution is more efficient than the previous one based on 'poll system' because all events will be detected. Every time that a falling edge occurs on `BUTTON_PIN`, the microcontroller will execute the interrupt service routine and because of this your main program will know each time the button was pressed.  
 
-### **Things to consider with the use of interrupts**
+### Things to consider with the use of interrupts
 * Inside an interrupt service routine, most of timing functions won't work as expected (millis, delay, etc). This is because this functions use interrupt service routines which can't be executed while an external interrupt is being executed.
 * Interrupt service routines should be as shorts as possible.
 
