@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    "Getting started": ["introduction", "installation", "fundamentals"],
+    "Getting started": ["introduction", "installation", "poll-vs-external-interrupts", "fundamentals"],
     API: [
       "on-single-press-api",
       "on-pressed-for-api",
