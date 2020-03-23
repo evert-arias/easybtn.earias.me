@@ -88,7 +88,7 @@ function Home() {
                 styles.getStarted
               )}
               to={
-                "https://github.com/evert-arias/EasyButton/archive/v1.1.1.zip"
+                "https://github.com/evert-arias/EasyButton/archive/v1.2.0.zip"
               }
             >
               Download
