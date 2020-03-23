@@ -1,7 +1,7 @@
 ---
 id: poll-vs-external-interrupts
-title: Poll vs external interrupts
-sidebar_label: Poll vs external interrupts
+title: Poll vs External Interrupts
+sidebar_label: Poll vs External Interrupts
 ---
 
 ## Poll
