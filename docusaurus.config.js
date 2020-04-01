@@ -1,6 +1,7 @@
 module.exports = {
   title: "EasyButton",
-  tagline: "Arduino library for debouncing momentary contact switches, detect press, release, long press and sequences with event definitions and callbacks.",
+  tagline:
+    "Arduino library for debouncing momentary contact switches, detect press, release, long press and sequences with event definitions and callbacks.",
   url: "https://easybtn.earias.me",
   baseUrl: "/",
   favicon: "img/favicon.ico",
@@ -32,7 +33,7 @@ module.exports = {
           label: "Examples",
           position: "left"
         },
-        { to: "/thanks", label: "Contributors", position: "left" },
+        { to: "/contributors", label: "Contributors", position: "left" },
         { to: "https://blog.earias.me", label: "Blog", position: "right" },
         {
           href: "https://github.com/evert-arias/EasyButton",
@@ -117,5 +118,8 @@ module.exports = {
       }
     ]
   ],
-  plugins: ["@docusaurus/plugin-google-analytics"]
+  plugins: ["@docusaurus/plugin-google-analytics"],
+  customFields: {
+    contributors: ["elC0mpa", "gutierrezps", "offa", "lexelby", "kekyo"]
+  }
 };
