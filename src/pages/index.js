@@ -51,7 +51,7 @@ const features = [
         libraries making it very easy to install and include in your project.
       </>
     )
-  },
+  }
 ];
 
 function Feature({ imageUrl, title, description }) {
