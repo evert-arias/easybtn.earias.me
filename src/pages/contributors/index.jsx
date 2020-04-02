@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./styles.module.css";
-import Contributors from "../../components/Contributors";
+import Contributors from "react-contributors";
 
 function ContributorsPage() {
   return (
