@@ -15,7 +15,10 @@ function ContributorsPage() {
           active support.
         </h4>
       </div>
-      <Contributors owner="evert-arias" repo="EasyButton" />
+      <Contributors
+        owner="evert-arias"
+        repo={["EasyButton", "easybtn.earias.me"]}
+      />
     </Layout>
   );
 }
