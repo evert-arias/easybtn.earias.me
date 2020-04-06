@@ -12,35 +12,35 @@ module.exports = {
       title: "EasyButton",
       logo: {
         alt: "EasyButton Logo",
-        src: "img/logo.svg"
+        src: "img/logo.svg",
       },
       links: [
         {
           to: "docs/introduction",
           activeBasePath: "docs",
           label: "Docs",
-          position: "left"
+          position: "left",
         },
         {
           to: "docs/on-single-press-api",
           activeBasePath: "api",
           label: "API",
-          position: "left"
+          position: "left",
         },
         {
           to: "docs/on-single-press-example",
           activeBasePath: "examples",
           label: "Examples",
-          position: "left"
+          position: "left",
         },
         { to: "/contributors", label: "Contributors", position: "left" },
         { to: "https://blog.earias.me", label: "Blog", position: "right" },
         {
           href: "https://github.com/evert-arias/EasyButton",
           label: "GitHub",
-          position: "right"
-        }
-      ]
+          position: "right",
+        },
+      ],
     },
     footer: {
       style: "dark",
@@ -50,59 +50,59 @@ module.exports = {
           items: [
             {
               label: "Introduction",
-              to: "docs/introduction"
+              to: "docs/introduction",
             },
             {
               label: "Installation",
-              to: "docs/installation"
+              to: "docs/installation",
             },
             {
               label: "Fundamentals",
-              to: "docs/fundamentals"
-            }
-          ]
+              to: "docs/fundamentals",
+            },
+          ],
         },
         {
           title: "Examples",
           items: [
             {
               label: "Single Press",
-              to: "docs/on-single-press-example"
+              to: "docs/on-single-press-example",
             },
             {
               label: "Detecting Sequence",
-              href: "docs/on-sequence-example"
+              href: "docs/on-sequence-example",
             },
             {
               label: "Pressed For Duration",
-              href: "docs/on-pressed-for-duration-example"
-            }
-          ]
+              href: "docs/on-pressed-for-duration-example",
+            },
+          ],
         },
         {
           title: "Community",
           items: [
             {
               label: "Blog",
-              to: "https://blog.earias.me/"
+              to: "https://blog.earias.me/",
             },
             {
               label: "GitHub",
-              href: "https://github.com/evert-arias/EasyButton"
+              href: "https://github.com/evert-arias/EasyButton",
             },
             {
               label: "Youtube",
-              href: "https://www.youtube.com/channel/UCbdTIe6YpgJ6bCL7FI16Bcw"
-            }
-          ]
-        }
+              href: "https://www.youtube.com/channel/UCbdTIe6YpgJ6bCL7FI16Bcw",
+            },
+          ],
+        },
       ],
-      copyright: `Made with 💙 by Evert Arias`
+      copyright: `Made with 💙 by Evert Arias`,
     },
     googleAnalytics: {
       trackingID: "UA-137998950-8",
-      anonymizeIP: false
-    }
+      anonymizeIP: false,
+    },
   },
   presets: [
     [
@@ -110,16 +110,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/evert-arias/easybutton-website"
+          editUrl: "https://github.com/evert-arias/easybutton-website",
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css")
-        }
-      }
-    ]
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      },
+    ],
   ],
   plugins: ["@docusaurus/plugin-google-analytics"],
-  customFields: {
-    contributors: ["elC0mpa", "gutierrezps", "offa", "lexelby", "kekyo"]
-  }
 };
