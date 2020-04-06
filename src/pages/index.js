@@ -88,6 +88,7 @@ function Home() {
             >
               Getting started
             </Link>
+
             <div className={styles.downloadLink}>
               <Link
                 className={classnames("button button--secondary button--lg")}
@@ -97,6 +98,12 @@ function Home() {
               >
                 Download
               </Link>
+            </div>
+            <div className={styles.upythonLink}>
+              <h4>
+                Using MicroPython? 🐍 - Check out{" "}
+                <a href="#">EasyButton for MicroPython</a> (work in progress).
+              </h4>
             </div>
           </div>
         </div>
