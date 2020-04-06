@@ -17,10 +17,20 @@
   }
 }
 
-.buttons {
+.heroLinks {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.gettingStartedLink {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #2cb7e1;
+}
+.downloadLink {
+  margin: 0.5rem;
 }
 
 .features {
