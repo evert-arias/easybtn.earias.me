@@ -27,10 +27,13 @@
 .gettingStartedLink {
   margin-bottom: 1rem;
   font-size: 1.2rem;
-  color: #2cb7e1;
 }
 .downloadLink {
   margin: 0.5rem;
+}
+.upythonLink {
+  display: none;
+  margin-top: 2rem;
 }
 
 .features {
