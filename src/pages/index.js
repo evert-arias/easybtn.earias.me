@@ -17,7 +17,7 @@ const features = [
         not only saves you development time, it also provides an easy and
         intuitive API for handling buttons with callbacks.
       </>
-    )
+    ),
   },
   {
     title: <>Non-blocking</>,
@@ -28,7 +28,7 @@ const features = [
         rest of your code with dangerous delays that impact the overall
         performance of your code.
       </>
-    )
+    ),
   },
   {
     title: <>Interrupts support</>,
@@ -40,7 +40,7 @@ const features = [
         continuously read the state of the buttons. This allows you to write a
         more efficient code.
       </>
-    )
+    ),
   },
   {
     title: <>Small footprint</>,
@@ -50,8 +50,8 @@ const features = [
         EasyButton has a small footprint and does not depend on third party
         libraries making it very easy to install and include in your project.
       </>
-    )
-  }
+    ),
+  },
 ];
 
 function Feature({ imageUrl, title, description }) {
@@ -81,18 +81,23 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
+          <div className={styles.heroLinks}>
             <Link
-              className={classnames(
-                "button button--outline button--secondary button--lg",
-                styles.getStarted
-              )}
-              to={
-                "https://github.com/evert-arias/EasyButton/archive/v1.2.0.zip"
-              }
+              className={styles.gettingStartedLink}
+              to={"docs/introduction"}
             >
-              Download
+              Getting started
             </Link>
+            <div className={styles.downloadLink}>
+              <Link
+                className={classnames("button button--secondary button--lg")}
+                to={
+                  "https://github.com/evert-arias/EasyButton/archive/v1.2.0.zip"
+                }
+              >
+                Download
+              </Link>
+            </div>
           </div>
         </div>
       </header>
