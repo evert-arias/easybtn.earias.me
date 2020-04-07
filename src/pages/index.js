@@ -39,6 +39,11 @@ const features = [
         through external interrupts. By doing this, it won't be necessary to
         continuously read the state of the buttons. This allows you to write a
         more efficient code.
+        <div className={styles.featureButtomLink}>
+          <Link to="docs/poll-vs-external-interrupts">
+            More on external interrupts
+          </Link>
+        </div>
       </>
     ),
   },
@@ -49,6 +54,35 @@ const features = [
       <>
         EasyButton has a small footprint and does not depend on third party
         libraries, making it very easy to install and include in your project.
+      </>
+    ),
+  },
+  {
+    title: <>Well documented</>,
+    imageUrl: "img/feature-well-documented.svg",
+    description: (
+      <>
+        EasyButton has a step-by-step guide that lets you get started with the
+        library in just a few minutes. Every part of your API is well documented
+        with a complete but easy to understand explanation.
+        <div className={styles.featureButtomLink}>
+          <Link to="docs/introduction">Getting started</Link>
+        </div>
+      </>
+    ),
+  },
+  {
+    title: <>Packed with examples</>,
+    imageUrl: "img/feature-examples.svg",
+    description: (
+      <>
+        Okay! EasyButton its well documented, but we are all used to having
+        examples in Arduino libraries and we always learn a lot from them,
+        that's why EasyButton provides several fully functional examples and we
+        will continue to add more. <br />
+        <div className={styles.featureButtomLink}>
+          <Link to="docs/on-single-press-example">Check them out!</Link>
+        </div>
       </>
     ),
   },
