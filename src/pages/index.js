@@ -66,8 +66,8 @@ const features = [
     description: (
       <>
         EasyButton has a step-by-step guide that lets you get started with the
-        library in just a few minutes. Every part of your API is well documented
-        with a complete but easy to understand explanation.
+        library in just a few minutes. Its API is well documented with a
+        complete but easy to understand explanation.
         <div className={styles.featureButtomLink}>
           <Link to="docs/introduction">Getting started</Link>
         </div>
