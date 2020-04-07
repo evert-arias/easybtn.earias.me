@@ -48,7 +48,7 @@ const features = [
     description: (
       <>
         EasyButton has a small footprint and does not depend on third party
-        libraries making it very easy to install and include in your project.
+        libraries, making it very easy to install and include in your project.
       </>
     ),
   },
