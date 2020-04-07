@@ -16,6 +16,9 @@ const features = [
         ugly, full of conditions and delays that are not safe at all. EasyButton
         not only saves you development time, it also provides an easy and
         intuitive API for handling buttons with callbacks.
+        <div className={styles.featureButtomLink}>
+          <Link to="docs/on-single-press-api">API documentation</Link>
+        </div>
       </>
     ),
   },
