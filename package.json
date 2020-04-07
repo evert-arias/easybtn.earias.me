@@ -16,7 +16,8 @@
     "classnames": "^2.2.6",
     "react": "^16.8.4",
     "react-contributors": "^1.1.2",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-github-btn": "^1.1.1"
   },
   "browserslist": {
     "production": [

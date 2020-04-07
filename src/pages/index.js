@@ -5,6 +5,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
+import GitHubButton from "react-github-btn";
 
 const features = [
   {
@@ -117,7 +118,19 @@ function Home() {
       <header className={classnames("hero", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
+
           <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <div className={styles.githubButton}>
+            <GitHubButton
+              href="https://github.com/evert-arias/EasyButton"
+              data-color-scheme="no-preference: light; light: light; dark: dark;"
+              data-icon="octicon-star"
+              data-show-count="true"
+              aria-label="Star evert-arias/EasyButton on GitHub"
+            >
+              Star
+            </GitHubButton>
+          </div>
           <div className={styles.heroLinks}>
             <Link
               className={styles.gettingStartedLink}
