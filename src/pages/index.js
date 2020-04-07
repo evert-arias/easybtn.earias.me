@@ -76,7 +76,7 @@ const features = [
   },
   {
     title: <>Packed with examples</>,
-    imageUrl: "img/feature-examples.svg",
+    imageUrl: "img/feature-packed-with-examples.svg",
     description: (
       <>
         Okay! EasyButton its well documented, but we are all used to having
