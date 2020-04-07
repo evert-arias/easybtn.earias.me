@@ -24,6 +24,11 @@
   justify-content: center;
 }
 
+.githubButton {
+  margin-top: 0.2rem;
+  margin-bottom: 0.4rem;
+}
+
 .gettingStartedLink {
   margin-bottom: 1rem;
   font-size: 1.2rem;
