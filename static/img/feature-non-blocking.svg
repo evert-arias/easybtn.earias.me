@@ -1,229 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="235"
-   height="160"
-   viewBox="0 0 62.177079 42.333335"
-   version="1.1"
-   id="svg1539"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="feature-non-blocking.svg">
-  <defs
-     id="defs1533" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="173.02468"
-     inkscape:cy="110.1826"
-     inkscape:document-units="px"
-     inkscape:current-layer="g1804"
-     showgrid="false"
-     units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1358"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata1536">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-254.66663)">
-    <g
-       id="g1974"
-       transform="matrix(0.26458333,0,0,0.26458333,-123.97619,-9.1607122)">
-      <g
-         id="g1804"
-         transform="matrix(0.76142133,0,0,0.76142133,232.30239,634.43207)">
-        <rect
-           height="7.5991611"
-           width="302.06665"
-           class="st2"
-           y="505.7009"
-           x="313.58334"
-           id="XMLID_6_"
-           style="fill:#202b52;stroke-width:0.94989514" />
-        <rect
-           height="7.5991611"
-           width="302.06665"
-           class="st3"
-           y="498.10172"
-           x="313.58334"
-           id="XMLID_9_"
-           style="fill:#3a4775;stroke-width:0.94989514" />
-        <rect
-           height="7.5991611"
-           width="302.06665"
-           class="st2"
-           y="580.26764"
-           x="313.58334"
-           id="XMLID_47_"
-           style="fill:#202b52;stroke-width:0.94989514" />
-        <rect
-           height="7.5991611"
-           width="302.06665"
-           class="st3"
-           y="572.66852"
-           x="313.58334"
-           id="XMLID_15_"
-           style="fill:#3a4775;stroke-width:0.94989514" />
-        <rect
-           height="7.5991611"
-           width="302.06665"
-           class="st2"
-           y="657.1524"
-           x="313.58334"
-           id="XMLID_110_"
-           style="fill:#202b52;stroke-width:0.94989514" />
-        <rect
-           height="7.5991611"
-           width="302.06665"
-           class="st3"
-           y="649.55322"
-           x="313.58334"
-           id="XMLID_18_"
-           style="fill:#3a4775;stroke-width:0.94989514" />
-        <circle
-           r="25.647169"
-           cy="505.7009"
-           cx="372.19186"
-           class="st4"
-           id="XMLID_21_"
-           style="fill:#3bceff;stroke-width:0.94989514" />
-        <path
-           d="m 376.94144,523.74882 c -14.15342,0 -25.64716,-11.49373 -25.64716,-25.64717 0,-3.41962 0.66493,-6.64927 1.8998,-9.59394 -4.08455,4.55949 -6.64927,10.54383 -6.64927,17.1931 0,14.15344 11.49373,25.64717 25.64717,25.64717 10.73381,0 19.94779,-6.64927 23.74738,-16.05323 -4.65449,5.22443 -11.39874,8.45407 -18.99792,8.45407 z"
-           class="st5"
-           id="XMLID_74_"
-           inkscape:connector-curvature="0"
-           style="fill:#2fafdc;stroke-width:0.94989514" />
-        <circle
-           r="25.647169"
-           cy="505.7009"
-           cx="372.19186"
-           class="st6"
-           id="XMLID_8_"
-           style="fill:none;stroke:#202b52;stroke-width:5.69937134;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
-        <circle
-           r="25.647169"
-           cy="580.26764"
-           cx="464.61679"
-           class="st11"
-           id="XMLID_25_"
-           style="fill:#f8d96b;stroke-width:0.94989514" />
-        <path
-           d="m 470.31614,599.26548 c -14.15344,0 -25.64716,-11.49373 -25.64716,-25.64716 0,-4.74948 1.32985,-9.30897 3.6096,-13.10856 -5.69937,4.74948 -9.30898,11.7787 -9.30898,19.75782 0,14.15344 11.49374,25.64717 25.64718,25.64717 9.40396,0 17.57306,-5.03444 22.03756,-12.53862 -4.36952,3.7046 -10.06889,5.88935 -16.3382,5.88935 z"
-           class="st12"
-           id="XMLID_87_"
-           inkscape:connector-curvature="0"
-           style="fill:#f2b955;stroke-width:0.94989514" />
-        <circle
-           r="25.647169"
-           cy="580.26764"
-           cx="464.61679"
-           class="st6"
-           id="XMLID_16_"
-           style="fill:none;stroke:#202b52;stroke-width:5.69937134;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
-        <circle
-           r="25.647169"
-           cy="657.1524"
-           cx="411.42252"
-           class="st20"
-           id="XMLID_32_"
-           style="fill:#e17555;stroke-width:0.94989514" />
-        <path
-           d="m 417.12202,676.14989 c -14.15344,0 -25.64717,-11.49373 -25.64717,-25.64718 0,-4.74947 1.32985,-9.30896 3.6096,-13.10855 -5.69938,4.74948 -9.30897,11.77871 -9.30897,19.75782 0,14.15345 11.49373,25.64717 25.64717,25.64717 9.40396,0 17.57306,-5.03443 22.03757,-12.53861 -4.36952,3.70459 -10.0689,5.88935 -16.3382,5.88935 z"
-           class="st21"
-           id="XMLID_116_"
-           inkscape:connector-curvature="0"
-           style="fill:#e45e5b;stroke-width:0.94989514" />
-        <path
-           d="m 427.57087,657.15198 c 0,-8.92901 -7.21921,-16.14821 -16.14822,-16.14821"
-           class="st17"
-           id="XMLID_122_"
-           inkscape:connector-curvature="0"
-           style="fill:none;stroke:#ffffff;stroke-width:2.84968567;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
-        <circle
-           r="25.647169"
-           cy="657.1524"
-           cx="411.42252"
-           class="st6"
-           id="XMLID_20_"
-           style="fill:none;stroke:#202b52;stroke-width:5.69937134;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
-        <path
-           d="m 388.34019,505.70081 c 0,-8.92902 -7.2192,-16.14822 -16.14821,-16.14822"
-           class="st17"
-           id="XMLID_111_"
-           inkscape:connector-curvature="0"
-           style="fill:none;stroke:#ffffff;stroke-width:2.84968567;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
-        <path
-           d="M 494.72845,487.6528"
-           class="st17"
-           id="XMLID_38_"
-           inkscape:connector-curvature="0"
-           style="fill:none;stroke:#ffffff;stroke-width:2.84968567;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
-        <path
-           d="m 472.70087,580.26758 c 0,-8.92901 -7.2192,-16.14821 -16.14822,-16.14821"
-           class="st17"
-           id="XMLID_115_"
-           inkscape:connector-curvature="0"
-           style="fill:none;stroke:#ffffff;stroke-width:2.84968567;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
-      </g>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 235 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;">
+    <g transform="matrix(0.185433,0,0,0.181296,-208.125,-316.774)">
+        <g id="Layer-1" serif:id="Layer 1">
+            <g id="g1974">
+                <g id="g1804">
+                    <rect id="XMLID_6_" x="1185.2" y="1911.31" width="1141.67" height="28.721" style="fill:rgb(32,43,82);"/>
+                    <rect id="XMLID_9_" x="1185.2" y="1882.59" width="1141.67" height="28.721" style="fill:rgb(58,71,117);"/>
+                    <rect id="XMLID_47_" x="1185.2" y="2193.14" width="1141.67" height="28.721" style="fill:rgb(32,43,82);"/>
+                    <rect id="XMLID_15_" x="1185.2" y="2164.42" width="1141.67" height="28.721" style="fill:rgb(58,71,117);"/>
+                    <rect id="XMLID_110_" x="1185.2" y="2483.73" width="1141.67" height="28.721" style="fill:rgb(32,43,82);"/>
+                    <rect id="XMLID_18_" x="1185.2" y="2455" width="1141.67" height="28.721" style="fill:rgb(58,71,117);"/>
+                    <circle id="XMLID_21_" cx="1406.71" cy="1911.31" r="96.934" style="fill:rgb(59,206,255);"/>
+                    <path id="XMLID_74_" d="M1424.66,1979.52C1371.17,1979.52 1327.73,1936.08 1327.73,1882.59C1327.73,1869.66 1330.24,1857.46 1334.91,1846.33C1319.47,1863.56 1309.78,1886.18 1309.78,1911.31C1309.78,1964.8 1353.22,2008.24 1406.71,2008.24C1447.28,2008.24 1482.1,1983.11 1496.46,1947.57C1478.87,1967.32 1453.38,1979.52 1424.66,1979.52Z" style="fill:rgb(47,175,220);fill-rule:nonzero;"/>
+                    <circle id="XMLID_8_" cx="1406.71" cy="1911.31" r="96.934" style="fill:none;stroke:rgb(32,43,82);stroke-width:21.54px;"/>
+                    <circle id="XMLID_25_" cx="1756.03" cy="2193.14" r="96.934" style="fill:rgb(248,217,107);"/>
+                    <path id="XMLID_87_" d="M1777.57,2264.94C1724.08,2264.94 1680.64,2221.5 1680.64,2168.01C1680.64,2150.05 1685.66,2132.82 1694.28,2118.46C1672.74,2136.41 1659.1,2162.98 1659.1,2193.14C1659.1,2246.63 1702.54,2290.07 1756.03,2290.07C1791.57,2290.07 1822.45,2271.04 1839.32,2242.68C1822.81,2256.68 1801.27,2264.94 1777.57,2264.94Z" style="fill:rgb(242,185,85);fill-rule:nonzero;"/>
+                    <circle id="XMLID_16_" cx="1756.03" cy="2193.14" r="96.934" style="fill:none;stroke:rgb(32,43,82);stroke-width:21.54px;"/>
+                    <circle id="XMLID_32_" cx="1554.98" cy="2483.73" r="96.934" style="fill:rgb(225,117,85);"/>
+                    <path id="XMLID_116_" d="M1576.52,2555.53C1523.03,2555.53 1479.59,2512.09 1479.59,2458.59C1479.59,2440.64 1484.62,2423.41 1493.23,2409.05C1471.69,2427 1458.05,2453.57 1458.05,2483.72C1458.05,2537.22 1501.49,2580.66 1554.98,2580.66C1590.53,2580.66 1621.4,2561.63 1638.28,2533.27C1621.76,2547.27 1600.22,2555.53 1576.52,2555.53Z" style="fill:rgb(228,94,91);fill-rule:nonzero;"/>
+                    <path id="XMLID_122_" d="M1616.02,2483.72C1616.02,2449.98 1588.73,2422.69 1554.98,2422.69" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:10.77px;"/>
+                    <circle id="XMLID_20_" cx="1554.98" cy="2483.73" r="96.934" style="fill:none;stroke:rgb(32,43,82);stroke-width:21.54px;"/>
+                    <path id="XMLID_111_" d="M1467.74,1911.31C1467.74,1877.56 1440.46,1850.28 1406.71,1850.28" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:10.77px;"/>
+                    <path id="XMLID_115_" d="M1786.59,2193.14C1786.59,2159.39 1759.3,2132.11 1725.55,2132.11" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:10.77px;"/>
+                </g>
+            </g>
+        </g>
     </g>
-  </g>
-  <style
-     id="style1541"
-     type="text/css">
-	.st0{fill:#FAE791;}
-	.st1{fill:#53325A;}
-	.st2{fill:#202B52;}
-	.st3{fill:#3A4775;}
-	.st4{fill:#3BCEFF;}
-	.st5{fill:#2FAFDC;}
-	.st6{fill:none;stroke:#202B52;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st7{fill:#12B0FF;}
-	.st8{fill:#129BE5;}
-	.st9{fill:#5392FF;}
-	.st10{fill:#487FDF;}
-	.st11{fill:#F8D96B;}
-	.st12{fill:#F2B955;}
-	.st13{fill:#FC3A4D;}
-	.st14{fill:#E82E4A;}
-	.st15{fill:#87D14B;}
-	.st16{fill:#79BA3A;}
-	.st17{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st18{fill:#78D698;}
-	.st19{fill:#5BC47B;}
-	.st20{fill:#E17555;}
-	.st21{fill:#E45E5B;}
-	.st22{fill:#9E3B53;}
-	.st23{fill:#883042;}
-	.st24{fill:#4A2D51;}
-	.st25{fill:#FDBA4F;}
-	.st26{fill:#E89D3A;}
-</style>
 </svg>
