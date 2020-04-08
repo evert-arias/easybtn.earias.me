@@ -24,7 +24,7 @@ Search for **EasyButton** on the **PlatformIO Library Manager** as shown below:
 
 :::note Tip
 
-See [PlatformIO LIbrary Manager Docs](https://docs.platformio.org/en/latest/librarymanager/) for more information
+See [PlatformIO LIbrary Manager Docs](https://docs.platformio.org/en/latest/librarymanager/) for more information or the installation instructions from [PlatformIO Libraries Registry](https://platformio.org/lib/show/5741/EasyButton/installation) 
 
 :::
 
