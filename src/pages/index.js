@@ -120,7 +120,7 @@ function Home() {
           <h1 className="hero__title">{siteConfig.title}</h1>
 
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.githubButton}>
+          <div className={styles.githubStarButton}>
             <GitHubButton
               href="https://github.com/evert-arias/EasyButton"
               data-color-scheme="no-preference: light; light: light; dark: dark;"
