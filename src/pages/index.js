@@ -123,12 +123,11 @@ function Home() {
           <div className={styles.githubStarButton}>
             <GitHubButton
               href="https://github.com/evert-arias/EasyButton"
-              data-color-scheme="no-preference: light; light: light; dark: dark;"
               data-icon="octicon-star"
               data-show-count="true"
               aria-label="Star evert-arias/EasyButton on GitHub"
             >
-              Star
+              GitHub
             </GitHubButton>
           </div>
           <div className={styles.heroLinks}>
