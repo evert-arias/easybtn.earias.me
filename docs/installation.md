@@ -8,7 +8,7 @@ sidebar_label: Installation
 
 Search for **EasyButton** on the **Arduino Library Manager** as shown below:
 
-![arduino_Library_manager](https://easybtn.earias.me/img/arduino_Library_manager.gif)
+![arduino_Library_manager](https://easybtn.earias.me/img/arduino_library_manager.gif)
 
 :::note Tip
 
