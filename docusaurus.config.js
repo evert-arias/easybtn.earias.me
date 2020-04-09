@@ -8,6 +8,11 @@ module.exports = {
   organizationName: "evert-arias", // Usually your GitHub org/user name.
   projectName: "EasyButton", // Usually your repo name.
   themeConfig: {
+    announcementBar: {
+      id: "supportus",
+      content:
+        '⭐️ If you like EasyButton, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/evert-arias/EasyButton">GitHub</a>! ⭐️',
+    },
     navbar: {
       title: "EasyButton",
       logo: {
