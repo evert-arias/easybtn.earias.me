@@ -9,9 +9,9 @@ module.exports = {
   projectName: "EasyButton", // Usually your repo name.
   themeConfig: {
     announcementBar: {
-      id: "supportus",
+      id: "newrelease",
       content:
-        '⭐️ If you like EasyButton, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/evert-arias/EasyButton">GitHub</a>! ⭐️',
+        '⭐️ EasyButton v2.0 has been released. Download it from <a target="_blank" rel="noopener noreferrer" href="https://github.com/evert-arias/EasyButton/archive/v2.0.0.zip">GitHub</a> ⭐️',
     },
     navbar: {
       title: "EasyButton",
