@@ -142,7 +142,7 @@ function Home() {
               <Link
                 className={classnames("button button--secondary button--lg")}
                 to={
-                  "https://github.com/evert-arias/EasyButton/archive/v1.2.0.zip"
+                  "https://github.com/evert-arias/EasyButton/archive/v2.0.0.zip"
                 }
               >
                 Download
