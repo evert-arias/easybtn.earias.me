@@ -11,7 +11,7 @@ module.exports = {
     announcementBar: {
       id: "newrelease",
       content:
-        '⭐️ EasyButton v2.0 has been released. Download it from <a target="_blank" rel="noopener noreferrer" href="https://github.com/evert-arias/EasyButton/archive/v2.0.0.zip">GitHub</a>. ⭐️',
+        '⭐️ EasyButton v2.0 has been released. Download from <a target="_blank" rel="noopener noreferrer" href="https://github.com/evert-arias/EasyButton/archive/v2.0.0.zip">GitHub</a>. ⭐️',
     },
     navbar: {
       title: "EasyButton",
