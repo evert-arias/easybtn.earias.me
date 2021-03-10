@@ -11,7 +11,7 @@ module.exports = {
     announcementBar: {
       id: "newrelease",
       content:
-        '⭐️ (Video) Working with Arduino libraries and EasyButton from <b> Automatismos_Xl_Mundo</b>, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=syA3kyBwRBU">check it out!</a>. (Español) ⭐️',
+        '⭐️ New video: Working with Arduino libraries and EasyButton from <b> Automatismos_Xl_Mundo</b>, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=syA3kyBwRBU">check it out!</a>. (Español) ⭐️',
       backgroundColor: '#a6f0c6'
     },
     navbar: {
