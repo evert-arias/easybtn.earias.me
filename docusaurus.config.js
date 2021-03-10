@@ -11,7 +11,8 @@ module.exports = {
     announcementBar: {
       id: "newrelease",
       content:
-        '⭐️ EasyButton v2.0 has been released. Download from <a target="_blank" rel="noopener noreferrer" href="https://github.com/evert-arias/EasyButton/archive/v2.0.0.zip">GitHub</a>. ⭐️',
+        '⭐️ (Video) Working with Arduino libraries and EasyButton from <b> Automatismos_Xl_Mundo</b>, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=syA3kyBwRBU">check it out!</a>. (Español) ⭐️',
+      backgroundColor: '#a6f0c6'
     },
     navbar: {
       title: "EasyButton",
@@ -19,7 +20,7 @@ module.exports = {
         alt: "EasyButton Logo",
         src: "img/logo.svg",
       },
-      links: [
+      items: [
         {
           to: "docs/introduction",
           activeBasePath: "docs",
