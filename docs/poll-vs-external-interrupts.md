@@ -65,7 +65,7 @@ void buttonPressed()
   wasPressed = true;
 }
 ```
-In the main program, after executing delay, the flag value is readed.
+In the main program, after executing delay, the flag value is read.
 ```cpp
 void loop()
 {
