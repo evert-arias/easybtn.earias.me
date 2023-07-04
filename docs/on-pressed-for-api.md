@@ -28,4 +28,4 @@ void loop() {
 
 ## Examples
 
-Please refer to the [Pressed For Duration](pressed-for-duration-example) example included in this documentation.
+Please refer to the [Pressed For Duration](on-pressed-for-duration-example) example included in this documentation.
