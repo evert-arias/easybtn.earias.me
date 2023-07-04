@@ -104,11 +104,7 @@ module.exports = {
         },
       ],
       copyright: `Made with 💙 by <a target="_blank" rel="noopener noreferrer" href="https://github.com/evert-arias">Evert Arias</a>`,
-    },
-    googleAnalytics: {
-      trackingID: "UA-137998950-8",
-      anonymizeIP: true,
-    },
+    }
   },
   presets: [
     [
@@ -120,6 +116,10 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        googleAnalytics: {
+          trackingID: "UA-137998950-8",
+          anonymizeIP: true,
         },
       },
     ],
