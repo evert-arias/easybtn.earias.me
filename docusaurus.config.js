@@ -8,12 +8,12 @@ module.exports = {
   organizationName: "evert-arias", // Usually your GitHub org/user name.
   projectName: "EasyButton", // Usually your repo name.
   themeConfig: {
-    announcementBar: {
-      id: "newrelease",
-      content:
-        '⭐️ New video: Working with Arduino libraries and EasyButton from <b> Automatismos_Xl_Mundo</b>, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=syA3kyBwRBU">check it out!</a>. (Español) ⭐️',
-      backgroundColor: '#a6f0c6'
-    },
+    // announcementBar: {
+    //   id: "newrelease",
+    //   content:
+    //     '⭐️ New video: Working with Arduino libraries and EasyButton from <b> Automatismos_Xl_Mundo</b>, <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=syA3kyBwRBU">check it out!</a>. (Español) ⭐️',
+    //   backgroundColor: '#a6f0c6'
+    // },
     navbar: {
       title: "EasyButton",
       logo: {
