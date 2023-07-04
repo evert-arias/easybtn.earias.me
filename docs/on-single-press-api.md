@@ -16,4 +16,4 @@ button.onPressed(onPressedCallback);
 
 ## Example
 
-Please refer to the [Single Press](single-press-example) example included in this documentation.
+Please refer to the [Single Press](on-single-press-example) example included in this documentation.
